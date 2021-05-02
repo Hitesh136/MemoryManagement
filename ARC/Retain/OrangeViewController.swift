@@ -21,12 +21,16 @@ class OrangeService {
 
 class OrangeViewController: UIViewController {
 
+    //Memory link can't detactable in instruments
     var viewControllerClosure: (() -> ())?
     var orangeService: OrangeService!
+    
+    // Memory link detactable in instruments.
     var person: Person?
     var job: Job?
 
-//    implicit unwrapped optional will create a referance link to the root. Please check the memory debug graph. Regular optional property will don't create the referance link to the root. 
+//    implicit unwrapped optional will create a referance link to the root. Please check the memory debug graph. Regular optional property will don't create the referance link to the root.
+    //Memory link can't detactable in instruments
 //    var person: Person!
 //    var job: Job!
     

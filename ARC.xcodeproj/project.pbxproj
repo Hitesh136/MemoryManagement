@@ -15,7 +15,6 @@
 		FF6B6D6C263E8AFC00BB5BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6B6D6A263E8AFC00BB5BE4 /* LaunchScreen.storyboard */; };
 		FF6B6D79263E8B3600BB5BE4 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D76263E8B3600BB5BE4 /* OrangeViewController.swift */; };
 		FF6B6D7A263E8B3600BB5BE4 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D77263E8B3600BB5BE4 /* RedViewController.swift */; };
-		FF6B6D7B263E8B3600BB5BE4 /* Retain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6B6D78263E8B3600BB5BE4 /* Retain.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		FF6B6D6D263E8AFD00BB5BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF6B6D76263E8B3600BB5BE4 /* OrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		FF6B6D77263E8B3600BB5BE4 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
-		FF6B6D78263E8B3600BB5BE4 /* Retain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Retain.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +77,6 @@
 			children = (
 				FF6B6D76263E8B3600BB5BE4 /* OrangeViewController.swift */,
 				FF6B6D77263E8B3600BB5BE4 /* RedViewController.swift */,
-				FF6B6D78263E8B3600BB5BE4 /* Retain.storyboard */,
 			);
 			path = Retain;
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 				FF6B6D6C263E8AFC00BB5BE4 /* LaunchScreen.storyboard in Resources */,
 				FF6B6D69263E8AFC00BB5BE4 /* Assets.xcassets in Resources */,
 				FF6B6D67263E8AFC00BB5BE4 /* Main.storyboard in Resources */,
-				FF6B6D7B263E8B3600BB5BE4 /* Retain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
